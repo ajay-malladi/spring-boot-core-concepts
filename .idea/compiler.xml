@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="webappPropertiesfile" />
+        <module name="ModelAndViewObject" />
+        <module name="webapp_springboot" />
+        <module name="webAppH2Json" />
+        <module name="demo" />
+        <module name="webAppH2Json (1)" />
+        <module name="webAppJpaH2" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ModelAndViewObject" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="webAppH2Json" options="-parameters" />
+      <module name="webAppH2Json (1)" options="-parameters" />
+      <module name="webAppJpaH2" options="-parameters" />
+      <module name="webappPropertiesfile" options="-parameters" />
+      <module name="webapp_springboot" options="-parameters" />
+    </option>
+  </component>
+</project>

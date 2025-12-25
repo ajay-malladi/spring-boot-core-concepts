@@ -14,7 +14,7 @@ public class homeController {
     @Autowired
     peopleRepo repo;
 
-    @RequestMapping("/")
+    @RequestMapping("/")   // for
     public String home() {
         return "index.jsp";
     }
@@ -39,6 +39,7 @@ public class homeController {
         mv.addObject("People", m);
 
         System.out.println(repo.findByJob("dev"));
+        System.out.println(repo.findByIdGreaterThan(20));
 
         return mv;
 
